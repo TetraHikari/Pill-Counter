@@ -1,0 +1,18 @@
+{
+  "model": "thai_v3_m1024.pt",
+  "conf": 0.25,
+  "iou": 0.5,
+  "imgsz": 1024,
+  "rule": "photo",
+  "val_exact": 0.8666666666666667,
+  "val_mae": 0.15,
+  "val_exact_session": 0.8533333333333333,
+  "val_mae_session": 0.18666666666666668,
+  "val_sessions": [
+    "s06",
+    "s13",
+    "s18",
+    "s23",
+    "s26"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "model": "../results/models/v4_pill_model.pt",
+  "conf": 0.5,
+  "iou": 0.4,
+  "val_exact": 0.2,
+  "val_mae": 1.0,
+  "val_photos": 5,
+  "val_sessions": [
+    "s06"
+  ]
+}

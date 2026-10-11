@@ -1,0 +1,5 @@
+# The model server image only needs requirements.txt and src/.
+*
+!requirements.txt
+!src/
+src/__pycache__/

@@ -1,0 +1,4 @@
+pile_id,true_count,hand_seconds,pilltally_seconds,pilltally_count,pilltally_timing,upload
+t10,10,3.55,0.4,10,processing only (photo to count shown; excludes taking the photo),20261010-142612-606578
+t50,50,22,0.5,50,processing only (photo to count shown; excludes taking the photo),20261010-142708-650409
+t100,100,48.81,0.6,100,processing only (photo to count shown; excludes taking the photo),20261010-142748-332146

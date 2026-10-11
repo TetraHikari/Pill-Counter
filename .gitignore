@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/tsconfig.tsbuildinfo
+
+# Base weights Ultralytics downloads into the working folder (yolo11s.pt, yolo11n-cls.pt)
+/*.pt
+src/*.pt
+# Colab data zips (tools/make_*_zip.py)
+/*.zip
+# Written by src/common.py with an absolute path
+data/real/real.yaml
+data/real/*.cache
+# Rebuilt by src/crops.py
+data/crops/
+# Public datasets: download them (see README)
+data/open/*/
+results/runs/
+# Photos uploaded through the app (private)
+results/app_uploads/
+*.log
+
+# OS / editors
+.DS_Store
+~$*

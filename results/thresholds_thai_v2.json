@@ -1,0 +1,7 @@
+{
+  "model": "../results/models/thai_v2.pt",
+  "conf": 0.5,
+  "iou": 0.5,
+  "imgsz": 1024,
+  "note": "original thai_v2 thresholds (tuned on val s06, s13, s18, s23); restored after compare_counters.py overwrote this file"
+}

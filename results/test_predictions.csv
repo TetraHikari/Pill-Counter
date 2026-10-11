@@ -1,0 +1,316 @@
+photo,session_id,pill_type,background,lighting,phone,true_count,split,condition,level,pred
+s03_IMG_3155.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L1 mean train count,62
+s03_IMG_3156.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L1 mean train count,62
+s03_IMG_3157.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L1 mean train count,62
+s03_IMG_3158.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L1 mean train count,62
+s03_IMG_3159.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L1 mean train count,62
+s04_IMG_3161.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L1 mean train count,62
+s04_IMG_3162.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L1 mean train count,62
+s04_IMG_3163.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L1 mean train count,62
+s04_IMG_3164.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L1 mean train count,62
+s04_IMG_3165.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L1 mean train count,62
+s08_IMG_3191.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L1 mean train count,62
+s08_IMG_3192.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L1 mean train count,62
+s08_IMG_3193.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L1 mean train count,62
+s08_IMG_3194.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L1 mean train count,62
+s08_IMG_3195.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L1 mean train count,62
+s14_IMG_3283.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3284.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3285.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3286.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3287.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3288.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3289.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3290.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3291.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s14_IMG_3293.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L1 mean train count,62
+s19_IMG_3331.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3332.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3333.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3334.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3335.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3336.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3337.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3338.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3339.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s19_IMG_3340.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L1 mean train count,62
+s24_IMG_3385.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3386.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3387.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3388.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3390.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3391.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3392.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3393.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3394.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s24_IMG_3395.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L1 mean train count,62
+s03_IMG_3155.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L2 classical watershed (no learning),25
+s03_IMG_3156.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L2 classical watershed (no learning),33
+s03_IMG_3157.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L2 classical watershed (no learning),34
+s03_IMG_3158.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L2 classical watershed (no learning),37
+s03_IMG_3159.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,L2 classical watershed (no learning),36
+s04_IMG_3161.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L2 classical watershed (no learning),32
+s04_IMG_3162.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L2 classical watershed (no learning),29
+s04_IMG_3163.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L2 classical watershed (no learning),33
+s04_IMG_3164.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L2 classical watershed (no learning),37
+s04_IMG_3165.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,L2 classical watershed (no learning),31
+s08_IMG_3191.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L2 classical watershed (no learning),30
+s08_IMG_3192.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L2 classical watershed (no learning),15
+s08_IMG_3193.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L2 classical watershed (no learning),25
+s08_IMG_3194.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L2 classical watershed (no learning),31
+s08_IMG_3195.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,L2 classical watershed (no learning),39
+s14_IMG_3283.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),5
+s14_IMG_3284.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),2
+s14_IMG_3285.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),6
+s14_IMG_3286.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),15
+s14_IMG_3287.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),9
+s14_IMG_3288.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),5
+s14_IMG_3289.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),5
+s14_IMG_3290.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),6
+s14_IMG_3291.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),8
+s14_IMG_3293.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,L2 classical watershed (no learning),8
+s19_IMG_3331.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),7
+s19_IMG_3332.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),10
+s19_IMG_3333.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),5
+s19_IMG_3334.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),6
+s19_IMG_3335.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),8
+s19_IMG_3336.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),14
+s19_IMG_3337.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),12
+s19_IMG_3338.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),13
+s19_IMG_3339.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),9
+s19_IMG_3340.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,L2 classical watershed (no learning),4
+s24_IMG_3385.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),14
+s24_IMG_3386.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),19
+s24_IMG_3387.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),17
+s24_IMG_3388.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),12
+s24_IMG_3390.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),10
+s24_IMG_3391.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),13
+s24_IMG_3392.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),10
+s24_IMG_3393.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),11
+s24_IMG_3394.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),17
+s24_IMG_3395.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,L2 classical watershed (no learning),8
+s03_IMG_3155.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",1
+s03_IMG_3156.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s03_IMG_3157.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",2
+s03_IMG_3158.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s03_IMG_3159.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s04_IMG_3161.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s04_IMG_3162.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s04_IMG_3163.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s04_IMG_3164.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s04_IMG_3165.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s08_IMG_3191.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",10
+s08_IMG_3192.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",3
+s08_IMG_3193.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s08_IMG_3194.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",2
+s08_IMG_3195.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",6
+s14_IMG_3283.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3284.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3285.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3286.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",1
+s14_IMG_3287.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3288.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3289.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3290.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3291.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s14_IMG_3293.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s19_IMG_3331.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",8
+s19_IMG_3332.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",1
+s19_IMG_3333.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",6
+s19_IMG_3334.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",4
+s19_IMG_3335.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s19_IMG_3336.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",1
+s19_IMG_3337.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",4
+s19_IMG_3338.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",3
+s19_IMG_3339.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",9
+s19_IMG_3340.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",6
+s24_IMG_3385.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3386.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3387.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3388.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3390.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3391.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3392.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3393.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3394.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s24_IMG_3395.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L3 pretrained YOLO (COCO) (conf=0.25, iou=0.7)",0
+s03_IMG_3155.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",31
+s03_IMG_3156.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",31
+s03_IMG_3157.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",31
+s03_IMG_3158.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",31
+s03_IMG_3159.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",31
+s04_IMG_3161.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",35
+s04_IMG_3162.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",35
+s04_IMG_3163.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",35
+s04_IMG_3164.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",35
+s04_IMG_3165.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L4 v4 pill model (conf=0.5, iou=0.4)",35
+s08_IMG_3191.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",52
+s08_IMG_3192.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",52
+s08_IMG_3193.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",48
+s08_IMG_3194.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",49
+s08_IMG_3195.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",55
+s14_IMG_3283.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3284.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3285.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3286.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3287.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3288.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3289.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3290.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3291.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",15
+s14_IMG_3293.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",18
+s19_IMG_3331.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3332.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3333.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3334.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3335.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3336.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",11
+s19_IMG_3337.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3338.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3339.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s19_IMG_3340.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",10
+s24_IMG_3385.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3386.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3387.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3388.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3390.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3391.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3392.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3393.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3394.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",30
+s24_IMG_3395.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L4 v4 pill model (conf=0.5, iou=0.4)",31
+s03_IMG_3155.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",31
+s03_IMG_3156.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",31
+s03_IMG_3157.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",31
+s03_IMG_3158.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",31
+s03_IMG_3159.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",31
+s04_IMG_3161.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",35
+s04_IMG_3162.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",35
+s04_IMG_3163.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",35
+s04_IMG_3164.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",35
+s04_IMG_3165.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",35
+s08_IMG_3191.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",46
+s08_IMG_3192.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",46
+s08_IMG_3193.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",46
+s08_IMG_3194.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",46
+s08_IMG_3195.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",46
+s14_IMG_3283.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3284.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3285.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3286.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3287.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3288.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3289.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3290.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3291.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",15
+s14_IMG_3293.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",14
+s19_IMG_3331.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3332.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3333.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3334.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3335.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",11
+s19_IMG_3336.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3337.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3338.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3339.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s19_IMG_3340.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",10
+s24_IMG_3385.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",31
+s24_IMG_3386.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3387.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3388.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3390.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3391.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3392.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3393.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3394.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s24_IMG_3395.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 v4 + Thai fine-tune (thai_v2) (conf=0.5, iou=0.5)",30
+s03_IMG_3155.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",32
+s03_IMG_3156.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",31
+s03_IMG_3157.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",31
+s03_IMG_3158.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",31
+s03_IMG_3159.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",31
+s04_IMG_3161.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",35
+s04_IMG_3162.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",35
+s04_IMG_3163.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",35
+s04_IMG_3164.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",35
+s04_IMG_3165.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",35
+s08_IMG_3191.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",46
+s08_IMG_3192.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",46
+s08_IMG_3193.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",46
+s08_IMG_3194.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",46
+s08_IMG_3195.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",46
+s14_IMG_3283.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3284.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3285.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3286.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3287.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",16
+s14_IMG_3288.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3289.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3290.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3291.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",15
+s14_IMG_3293.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",17
+s19_IMG_3331.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",11
+s19_IMG_3332.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",11
+s19_IMG_3333.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",10
+s19_IMG_3334.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",11
+s19_IMG_3335.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",11
+s19_IMG_3336.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",10
+s19_IMG_3337.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",10
+s19_IMG_3338.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",10
+s19_IMG_3339.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",10
+s19_IMG_3340.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",10
+s24_IMG_3385.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3386.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3387.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3388.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3390.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",31
+s24_IMG_3391.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3392.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3393.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3394.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s24_IMG_3395.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 thai_v3_m1024 (YOLO11m from COCO) (conf=0.25, iou=0.5)",30
+s03_IMG_3155.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",31
+s03_IMG_3156.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",29
+s03_IMG_3157.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",31
+s03_IMG_3158.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",31
+s03_IMG_3159.jpg,s03,tablet,brown_cloth,indoor_warm,iphone,31,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",31
+s04_IMG_3161.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",35
+s04_IMG_3162.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",35
+s04_IMG_3163.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",35
+s04_IMG_3164.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",35
+s04_IMG_3165.jpg,s04,tablet,brown_cloth,indoor_warm,iphone,35,test,unseen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",34
+s08_IMG_3191.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",46
+s08_IMG_3192.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",46
+s08_IMG_3193.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",46
+s08_IMG_3194.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",46
+s08_IMG_3195.jpg,s08,tablet,granite,daylight,iphone,46,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",46
+s14_IMG_3283.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",15
+s14_IMG_3284.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",15
+s14_IMG_3285.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",15
+s14_IMG_3286.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",15
+s14_IMG_3287.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",14
+s14_IMG_3288.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",15
+s14_IMG_3289.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",15
+s14_IMG_3290.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",14
+s14_IMG_3291.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",15
+s14_IMG_3293.jpg,s14,caplet,floor_tile,indoor,iphone,15,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",14
+s19_IMG_3331.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3332.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3333.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3334.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3335.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3336.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3337.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3338.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3339.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s19_IMG_3340.jpg,s19,mini_tablet,floor_tile,indoor,iphone,10,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",10
+s24_IMG_3385.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3386.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3387.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3388.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3390.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3391.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3392.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3393.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3394.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30
+s24_IMG_3395.jpg,s24,tablet,floor_tile,indoor,iphone,30,test,seen,"L5 app counter (thai_mix_s1024, ours + public multi-drug) (conf=0.55, iou=0.6)",30

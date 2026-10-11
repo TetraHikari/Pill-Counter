@@ -1,0 +1,18 @@
+{
+  "model": "thai_mix_s1024.pt",
+  "conf": 0.55,
+  "iou": 0.6,
+  "imgsz": 1024,
+  "rule": "session",
+  "val_exact": 0.9333333333333333,
+  "val_mae": 0.1,
+  "val_exact_session": 0.9466666666666667,
+  "val_mae_session": 0.09333333333333334,
+  "val_sessions": [
+    "s06",
+    "s13",
+    "s18",
+    "s23",
+    "s26"
+  ]
+}

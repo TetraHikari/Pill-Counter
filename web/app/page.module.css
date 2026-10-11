@@ -1,0 +1,574 @@
+.app {
+  min-height: 100dvh;
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: max(10px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom))
+    max(16px, env(safe-area-inset-left));
+  gap: 12px;
+}
+
+/* Pressed and keyboard-focus feedback shared by every button. */
+.app button {
+  transition: transform 0.08s ease-out, background-color 0.12s, opacity 0.12s;
+}
+
+.app button:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+/* ---- top bar ---- */
+.top {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.iconBtn,
+.roundBtn {
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: var(--fg);
+  background: transparent;
+  cursor: pointer;
+}
+
+.iconBtn {
+  width: 44px;
+  height: 44px;
+}
+
+.iconBtn svg,
+.roundBtn svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.iconBtn:active:not(:disabled) {
+  background: var(--chip);
+  transform: scale(0.92);
+}
+
+.iconBtn:last-child {
+  justify-self: end;
+}
+
+.textBtn {
+  justify-self: end;
+  white-space: nowrap;
+  border: 0;
+  background: transparent;
+  color: var(--accent-text);
+  font-weight: 600;
+  padding: 8px 4px;
+  cursor: pointer;
+}
+
+.textBtn:active:not(:disabled) {
+  opacity: 0.6;
+}
+
+.textBtn:disabled {
+  color: var(--muted);
+}
+
+.textBtnBad {
+  color: var(--bad);
+}
+
+/* ---- chips ---- */
+.chips {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.chip {
+  flex: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--fg);
+  background: var(--chip);
+  cursor: pointer;
+}
+
+.chip:active {
+  transform: scale(0.95);
+  background: var(--border);
+}
+
+.chipOn,
+.chipOn:active {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ---- photo ---- */
+.stage {
+  position: relative;
+  flex: 1;
+  min-height: 46dvh;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+/* The zoom frame fills the stage, so the photo's size never depends on the readout below it. */
+.zoom {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  touch-action: pan-y; /* one finger scrolls the page; pinches come to us */
+  cursor: zoom-in;
+}
+
+.zoomOn {
+  cursor: grab;
+}
+
+.zoomInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  /* Fixed tracks: with auto tracks the cell grows to the photo's pixel size (e.g. 3024x4032), so the
+     photo's max-width/max-height 100% no longer fit it to the frame. */
+  grid-template: 100% / 100%;
+  place-items: center;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.photo {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.zoomReset,
+.zoomHint {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.zoomReset {
+  border: 0;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.zoomReset:active {
+  transform: scale(0.94);
+}
+
+.zoomHint {
+  padding: 5px 10px;
+  font-weight: 500;
+  pointer-events: none;
+  animation: hint 4s ease-in forwards;
+}
+
+@keyframes hint {
+  0%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.empty {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 24px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.emptyIcon svg {
+  width: 64px;
+  height: 64px;
+  fill: none;
+  stroke: var(--accent-text);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid var(--chip);
+  border-top-color: var(--accent);
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---- readout under the photo ---- */
+.readout {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+/* Two lines reserved, bottom-aligned, so the count badge stays put when the note changes. */
+.notes {
+  min-height: calc(2 * 1.35 * 14px + 2px);
+  display: grid;
+  align-content: end;
+  gap: 2px;
+}
+
+.note,
+.noteOk,
+.noteWarn,
+.noteBad,
+.noteError {
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.note {
+  color: var(--muted);
+}
+
+.noteOk {
+  color: var(--ok);
+}
+
+.noteWarn {
+  color: var(--warn);
+}
+
+.noteBad,
+.noteError {
+  color: var(--bad);
+}
+
+.noteMuted {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.countRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.badge {
+  min-width: 112px; /* room for 3 digits, so 99 -> 100 doesn't resize it */
+  padding: 6px 22px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.diffOk,
+.diffOff {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--chip);
+}
+
+.diffOk {
+  color: var(--ok);
+}
+
+.diffOff {
+  color: var(--warn);
+}
+
+/* ---- bottom controls ---- */
+.controls {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  justify-items: center;
+  padding-top: 4px;
+}
+
+.roundBtn {
+  width: 56px;
+  height: 56px;
+  background: var(--chip);
+}
+
+.roundBtn:active:not(:disabled) {
+  background: var(--border);
+  transform: scale(0.92);
+}
+
+.shutter {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid var(--fg);
+  background: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.shutter span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--fg);
+  transition: transform 0.1s;
+}
+
+.shutter:active:not(:disabled) span {
+  transform: scale(0.86);
+  opacity: 0.8;
+}
+
+.shutter:disabled,
+.roundBtn:disabled,
+.iconBtn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* ---- settings sheet ---- */
+.scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 10;
+}
+
+.sheet {
+  width: 100%;
+  max-width: 560px;
+  background: var(--sheet);
+  border-radius: 22px 22px 0 0;
+  padding: 10px max(20px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom))
+    max(20px, env(safe-area-inset-left));
+  display: grid;
+  gap: 18px;
+}
+
+.grabber {
+  justify-self: center;
+  width: 40px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--chip);
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.field small {
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.field select,
+.field input {
+  font: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--fg);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.legend i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: -1px;
+}
+
+.done {
+  border: 0;
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+.done:active {
+  transform: scale(0.98);
+  opacity: 0.85;
+}
+
+/* ---- history ---- */
+.historyPage {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  background: var(--bg);
+  overflow-y: auto;
+  padding: max(10px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom))
+    max(16px, env(safe-area-inset-left));
+}
+
+.historyPage .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* One saved count, shown large: same layout as the main screen (photo, notes, badge). */
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: hidden;
+}
+
+.detail > * {
+  width: 100%;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail > .top {
+  margin-bottom: 0;
+}
+
+.historyPage button {
+  transition: transform 0.08s ease-out, background-color 0.12s, opacity 0.12s;
+}
+
+.historyPage button:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+.historyPage > .top {
+  max-width: 560px;
+  margin: 0 auto 12px;
+}
+
+.historyEmpty {
+  text-align: center;
+  color: var(--muted);
+  margin-top: 30dvh;
+}
+
+.grid {
+  list-style: none;
+  max-width: 560px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 14px;
+}
+
+.gridItem {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.gridItem:active {
+  transform: scale(0.96);
+  opacity: 0.8;
+}
+
+.grid img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.badgeSmall {
+  padding: 3px 14px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+
+.grid time {
+  font-size: 12px;
+  color: var(--muted);
+}

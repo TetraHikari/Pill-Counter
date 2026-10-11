@@ -1,0 +1,30 @@
+# PillTally in Docker: `docker compose up --build`, then open http://<your-Mac-IP>:3000 on the phone.
+# Runs on the CPU (slower than running the servers directly on a Mac, which uses the Apple GPU). Uses ports 3000 and 8000.
+services:
+  api:
+    build: .
+    volumes:
+      - ./results:/app/results   # models, thresholds, and app_uploads/ (written here)
+    environment:
+      PILLTALLY_LOG_UPLOADS: ${PILLTALLY_LOG_UPLOADS:-1}
+    ports:
+      - "127.0.0.1:8000:8000"     # this Mac only, for curl; the phone goes through the web container
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 60s           # loading both models takes a while on first start
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./web
+      args:
+        PILLTALLY_API: http://api:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
